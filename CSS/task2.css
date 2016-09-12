@@ -1,0 +1,70 @@
+body{
+    font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #000;
+}
+h3{
+    font-size: 1em;
+    color:#666;
+}
+h3+p{
+    font-size: 0.8em;
+    color:#999;
+}
+header{
+    background: #333;
+    color: #ffffff;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+}
+header nav ul{
+    list-style-position: inside;
+}
+header nav li{
+    margin: 6px;
+}
+header nav li a:link{
+    color: white;
+}
+main{
+    background-color:#cccccc;
+    padding: 10px;
+}
+article{
+    margin:40px;
+    padding: 10px 10px;
+    background-color: #ffffff;
+}
+footer{
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    line-height: 150%;
+}
+table{
+    border-collapse:collapse;
+    border-color: #ffffff;
+    font-size: 90%;
+}
+table tr td,table tr th{
+    text-align: left;
+    padding: 0.5em 15em 0.5em 0.5em ;
+}
+table tr td{
+    font-size: 70%;
+}
+
+table th{
+    background-color: #000000;
+    color: #ffffff;
+}
+tr.footer{
+    background-color:#bbb;
+    font-weight: bolder;
+}
+
