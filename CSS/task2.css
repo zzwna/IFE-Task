@@ -109,38 +109,45 @@ aside{
     background-color: #ffffff;
 }
 aside form{
-    display: table;
-    width: inherit;
-    line-height: 200%;
+    font-size: 95%;
+    width: 100%;
+    line-height: 100%;
     margin: 0 auto;
+    text-align: center;
 }
-aside form.tablerows{
-    display: table-row;
+aside form table{
+    width: 80%;
 }
-aside form.tablerows div{
+aside form table td {
     display: table-cell;
     vertical-align:top;
     padding: 3px;
 }
-aside form.tablerows div:first-child{
+aside form table tr td:first-child{
     text-align: right;
+    width: 40%;
+}
+aside form table tr td p{
+    color: #999999;
 }
 aside form textarea{
-     width:500px;
+     width:600px;
      height:200px;
  }
 aside #submit{
-    background-color: blue;
-    width: 100%;
-    height: 50px;
+    background-color: #06c;
+    width: 95%;
+    font-size: large;
+    border-radius: 10px;
+    height: 45px;
     color: #ffffff;
 }
 footer{
     background: #000;
     color: #ffffff;
-    height: 50px;
+    height: 90px;
     text-align: center;
-    font-size: .8em;
+    font-size: .7em;
 }
 footer p{
     margin:0;
