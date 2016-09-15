@@ -1,5 +1,7 @@
 body{
-    font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+    font-family:Microsoft YaHei;
+    background-color: #cccccc;
+    margin:0;
 }
 h2{
     font-weight: 700;
@@ -17,31 +19,120 @@ h3+p{
 header{
     background: #333;
     color: #ffffff;
-    margin: 10px 10px 0px 10px;
-    padding: 20px;
+    margin: 0;
+    padding: 20px 10px 20px 10px;
+    height:50px;
+}
+header h1{
+    display: inline;
+    width: 80%;
+}
+header nav{
+    float: right;
+    color: black;
+    margin-left: 1px;
+    font-size: 0.8em;
+
 }
 header nav ul{
-    list-style-position: inside;
+    list-style-type: disc;
+    list-style-position:inside;
+    margin: 10px 100px 10px 0;
 }
 header nav li{
-    margin: 6px;
+   float:left;
+    margin: 0;
+    padding:1px 5px;
+
+}
+header nav li a{
+    text-decoration: none;
 }
 header nav li a:link{
     color: white;
+
+}
+header nav li a:visited{
+
 }
 main{
     background-color:#cccccc;
     padding: 10px;
 }
 article{
-    margin:40px;
+    margin:20px;
     padding: 10px 10px;
     background-color: #ffffff;
+}
+#pictureslist{
+    margin:20px;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    height: 1800px;
+}
+#pictureslist h3{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #000;
+}
+#pictureslist ul{
+    list-style-type: none;
+    border: #cccccc 10px ;
+}
+#pictureslist ul li{
+    float: left;
+    clear: left;
+    text-align: center;
+    border:#cccccc 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+#pictureslist ul li p{
+
+}
+aside{
+    margin:20px;
+    padding: 10px 10px;
+    background-color: #ffffff;
+}
+aside form{
+    display: table;
+    width: inherit;
+    line-height: 200%;
+    margin: 0 auto;
+}
+aside form.tablerows{
+    display: table-row;
+}
+aside form.tablerows div{
+    display: table-cell;
+    vertical-align:top;
+    padding: 3px;
+}
+aside form.tablerows div:first-child{
+    text-align: right;
+}
+aside form textarea{
+     width:500px;
+     height:200px;
+ }
+aside #submit{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
 }
 footer{
     background: #000;
     color: #ffffff;
+    height: 50px;
     text-align: center;
+    font-size: .8em;
+}
+footer p{
+    margin:0;
+    line-height: 50px;
+    vertical-align:150%;
 }
 p{
     line-height: 150%;
@@ -64,6 +155,7 @@ table th{
     color: #ffffff;
 }
 tr.footer{
+    font-size:70%;
     background-color:#bbb;
     font-weight: bolder;
 }
