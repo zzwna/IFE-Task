@@ -3,32 +3,42 @@ body,main,aside#simple,div#team{
     padding: 20px;
 }
 body{
-    display: table;
     background-color: #eeeeee;
-    border-spacing: 10px;
+    width: 100%;
 }
-body div.tablerow{
-    display: table-row;
+div.tablerow{
+    width: 100%;
 }
 main,aside#simple,div#team{
-    display: table-cell;
     background-color: #ffffff;
-    vertical-align: top;
+}
+main#main{
+    margin: 0 230px 0 260px;
+}
+div#team{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width:200px;
+}
+aside#simple{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 120px;
 }
 div#team p{
     float: right;
     margin-right: 30px;
 }
-aside#simple{
-    width: 120px;
-}
-div#team{
-    width:200px;
-}
 aside#simple ul{
     list-style-type: none;
-
+    padding: 0 10px;
 }
 aside#simple li{
-    margin: 20px 20px 20px 10px;
+    margin: 10px 0;
+}
+aside#simple li image{
+   margin:20px auto 20px;
+    border: solid #eeeeee 1px;
 }
