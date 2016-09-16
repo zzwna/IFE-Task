@@ -1,0 +1,30 @@
+body,main,aside#simple,div#team{
+    border: solid #999 1px;
+    padding: 20px;
+}
+body{
+    display: table;
+    background-color: #eeeeee;
+}
+body div.tablerow{
+    display: table-row;
+}
+main,aside#simple,div#team{
+    display: table-cell;
+    background-color: #ffffff;
+}
+aside#simple{
+    width: 200px;
+}
+div#team{
+    width:120px;
+}
+aside#simple ul{
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
+}
+aside#simple li{
+    width: 100%;
+    margin: 10px auto;
+}
