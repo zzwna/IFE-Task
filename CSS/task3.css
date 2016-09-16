@@ -5,6 +5,7 @@ body,main,aside#simple,div#team{
 body{
     display: table;
     background-color: #eeeeee;
+    border-spacing: 10px;
 }
 body div.tablerow{
     display: table-row;
@@ -12,19 +13,22 @@ body div.tablerow{
 main,aside#simple,div#team{
     display: table-cell;
     background-color: #ffffff;
+    vertical-align: top;
+}
+div#team p{
+    float: right;
+    margin-right: 30px;
 }
 aside#simple{
-    width: 200px;
+    width: 120px;
 }
 div#team{
-    width:120px;
+    width:200px;
 }
 aside#simple ul{
     list-style-type: none;
-    width: 80%;
-    margin: 0 auto;
+
 }
 aside#simple li{
-    width: 100%;
-    margin: 10px auto;
+    margin: 20px 20px 20px 10px;
 }
