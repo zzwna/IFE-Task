@@ -1,4 +1,4 @@
-body,main,aside#simple,div#team{
+body,main article,aside#simple,div#team{
     border: solid #999 1px;
     padding: 20px;
 }
@@ -9,10 +9,10 @@ body{
 div.tablerow{
     width: 100%;
 }
-main,aside#simple,div#team{
+main article,aside#simple,div#team{
     background-color: #ffffff;
 }
-main#main{
+main#main article{
     margin: 0 230px 0 260px;
 }
 div#team{
