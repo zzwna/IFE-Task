@@ -1,31 +1,26 @@
-body,main article,aside#simple,div#team{
+div.tablerow,article,aside#simple,div#team{
     border: solid #999 1px;
     padding: 20px;
 }
-body{
-    background-color: #eeeeee;
-    width: 100%;
-}
 div.tablerow{
-    width: 100%;
+    margin: 20px;
+    background-color: #eeeeee;
+    overflow: auto;
+    zoom:1;
 }
-main article,aside#simple,div#team{
+article#main,aside#simple,div#team{
     background-color: #ffffff;
 }
-main#main article{
-    margin: 0 230px 0 260px;
-}
 div#team{
-    position: absolute;
-    top: 30px;
-    left: 30px;
+    float: left;
     width:200px;
 }
 aside#simple{
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    width: 120px;
+    float: right;
+    width: 80px;
+}
+article#main{
+    margin: 0 140px 0 260px;
 }
 div#team p{
     float: right;
