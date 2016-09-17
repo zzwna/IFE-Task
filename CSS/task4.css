@@ -35,3 +35,27 @@ position: absolute;
     margin: -100px 0 0 -200px;
     background-color: #cccccc;
 }
+body{
+    background-color: darkorange;
+}
+div.ghost-center{
+    background-color: #ffffff;
+    position: relative;
+    height: 200px;
+    width: 400px;
+}
+div.ghost-center::before{
+    content:" ";
+    display: inline-block;
+    height: 100%;
+    width: 1%;
+    vertical-align: middle;
+}
+div.ghost-center p{
+    width: 190px;
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    background: red;
+    vertical-align: middle;
+}
